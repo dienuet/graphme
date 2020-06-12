@@ -1,5 +1,5 @@
 # graphme
-**a dirty tool to beautify GraphQL Shema Introspection**
+**a dirty tool to beautify GraphQL Schema Introspection**
 
 Type: python graphme.py -h for help
 
