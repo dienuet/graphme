@@ -9,8 +9,8 @@ def send_request(url,query):
 	#proxy = {"http":"http://127.0.0.1:8080"}
 	headers = {
 		"Authorization":"Bearer xxx",
-		"X-CSRF-Token":"vmB7mcl1pOvfF9UYrJoKtnHFXZ8Xkc394hbALadQebtx0j3Y1oWlEGRGV3yqYT0vNzzupk2owpwAiGgFzNYqzg==",
-		"Cookie":"_octo=GH1.1.641034266.1581950910; _ga=GA1.2.471217135.1581950912; logged_in=yes; dotcom_user=seehack; _gid=GA1.2.425318925.1591806255; _gat=1; _graphql_explorer_session=c2dwWFBFUCtVV2xUZGxOM3N3bmdHME9ZNm9mclVPTC9rdDUvRDY2OUYyNGtva3FuTHcyNWhDYnZpTjR3UDJnZW9YSG8yQUNHL1dlSHZZUmI4Ykh5TEFxbDgvKzlYYmZoODdheDN0ekpZTjRSQngwUDVKSi9nN0tyUFJ5aGl5NEFvK1FLa2NzcWNNR2hTeGxmUmJmMGdvY1pZZmlOQ2hRS3M3V1JlS0ZNTFlFUVFsWWdxeHJkalJKdmdRTU1pblVHbXJWSzBxdndhSlRaSDg1ZUlGYndyZ3lzMjJIODRJUXdodFl2ak1FWWg2aFE1SGNoZDc1TDRJTWQzREdmVGVzTEFURTQyZEhEZHROQkxDYWtiZGpiRkhlMkNLczFlYlVtNlRER0syYldMZHBnWUZDd0lNbG5oZm5LaHVlUlBQbzhwbFBjbnVEQjIrWlcvVnNuMjVHandKeDEzK3pNQW5YNXNxdUhLbTNmWWpFPS0tYlNYR2tWWDhMdXc5UERvQUtpcDlSdz09--ce12d19daaf5bcf1b384afaed1b359c556816b9c"
+		"X-CSRF-Token":"xxx",
+		"Cookie":"xx"
 	}
 	payload = {'query': query}
 	req = rq.post(url,json=payload,headers=headers)#proxies=proxy
