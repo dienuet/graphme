@@ -1,4 +1,4 @@
-# GraphQL
+# graphme
 **a dirty tool to beautify GraphQL Shema**
 
 Type: python graphme.py -h for help
